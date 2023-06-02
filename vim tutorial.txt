@@ -1,0 +1,50 @@
+##  VIM launches into the command mode by default.
+##  To switch to edit mode (also called "insert mode") you need to give VIM a command to tell it to switch modes. There are two ways to do this:
+##  
+##  Press "i" to begin inserting text at the current cursor position.
+##  Press "a" to begin inserting after the current cursor position.
+##  Instruction
+##  Press "i" in the file to enter insert mode. Add some text to the file.
+##  
+##  Getting out of editing mode is a bit more intuitive: just hit the ESC key.
+##  
+##  Instruction
+##  Press ESC in the file to make sure you are back to command mode.
+##  
+##  Got a handle on those three? Here are some other commands in command mode. And remember, these commands are case-sensitive, so take note of those stray capital letters:
+##  
+##  Y copies a line of text to the buffer.
+##  P pastes it to the cursor's current position.
+##  dd will delete the whole line of text. This will also effectively "cut" a line of text as well. When you delete a line, it's placed in the buffer.
+##  yy copies a whole line of text.
+##  Instruction
+##  Try out the commands above while navigating lines (using arrow keys) in command mode.
+##  
+##  Saving a file
+##  While editing a file, its always a good idea to save the text. To do that you would need to do the following:
+##  
+##  Make sure you are in command mode. Use escape key to make sure.
+##  type :w
+##  That's it.
+##  Instruction
+##  Save the file while in command mode.
+##  
+##  Quit vim
+##  Once you have finished editing you can quit vim in one of the following two ways:
+##  
+##  :wq - write (save) and quit file (and vim)
+##  :q! - quit and ignore changes made since last file save.
+##  That is all you need to get started with vim.
+##  
+##  Note
+##  To learn more about vim - and there is quite a bit to it - vim comes with a walk through tutor, vimtutor, that you can run on your terminal.
+##  
+##  Note
+##  Here is another quick cheatsheet for vim.
+##  
+##  Although it may look more complex for a code editor when compared with VSCode, the vim senpais swear by the speed gains once you get used to it.
+##  
+##  If you would like some Vim interactive tutorials, check out the links below (or bookmark them for later).
+##  
+##  OpenVim - An interactive tutorial that teaches you the basics of Vim
+##  Vim-Adventures - A gamified tutorial that teaches you Vim while you play a game!
